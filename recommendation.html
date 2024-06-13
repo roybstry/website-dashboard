@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard VM</title>
+
+    <!-- Box Icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles  -->
+    <link rel="shortcut icon" href="assets/img/vending-machine3.png" type="image/x-icon" style="height: max-content;">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="sidebar close">
+        <!-- ========== Logo ============  -->
+        <a href="#" class="logo-box">
+            <i class='bx bxl-microsoft'></i>
+            <div class="logo-name">Menu</div>
+        </a>
+
+        <!-- ========== List ============  -->
+        <ul class="sidebar-list">
+            <!-- -------- Non Dropdown List Item ------- -->
+            <li id="menu-dashboard">
+                <div class="title">
+                    <a href="index.html" class="link">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="name">Dashboard</span>
+                    </a>
+                </div>
+                <div class="submenu">
+                    <a href="index.html" class="link submenu-title">Dashboard</a>
+                </div>
+            </li>
+
+            <!-- -------- Dropdown List Item ------- -->
+            <li id="menu-category" class="dropdown">
+                <div class="title">
+                    <a href="#" class="link">
+                        <i class='bx bx-line-chart'></i>
+                        <span class="name">Category</span>
+                    </a>
+                    <i class='bx bxs-chevron-down'></i>
+                </div>
+                <div class="submenu">
+                    <a href="#" class="link submenu-title">Category</a>
+                    <a href="product.html" class="link">Product</a>
+                    <a href="location.html" class="link">Location</a>
+                    <a href="machine.html" class="link">Active Machine</a>
+                    <a href="favorite.html" class="link">Favorite Product</a>
+                </div>
+            </li>
+
+            <!-- -------- Non Dropdown List Item ------- -->
+            <li id="menu-data">
+                <div class="title">
+                    <a href="data.html" class="link">
+                        <i class='bx bx-data'></i>
+                        <span class="name">Data</span>
+                    </a>
+                </div>
+                <div class="submenu">
+                    <a href="data.html" class="link submenu-title">Data</a>
+                </div>
+            </li>
+
+            <!-- -------- Non Dropdown List Item ------- -->
+            <li id="menu-recommendation">
+                <div class="title">
+                    <a href="recommendation.html" class="link">
+                        <i class='bx bx-bulb'></i>
+                        <span class="name">Recommendation</span>
+                    </a>
+                </div>
+                <div class="submenu">
+                    <a href="recommendation.html" class="link submenu-title">Recommendation</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ============= Home Section =============== -->
+    <section class="home">
+        <div class="toggle-sidebar">
+            <i class='bx bx-menu'></i>
+
+            <!-- =========== Header ============= -->
+            <header>
+                <div class="text">Recommendation</div>
+            </header>
+        </div>
+        <!-- Garis horizontal -->
+        <hr class="content-divider">
+
+        <main>
+            <div class="rec-container">
+                <div class="rec-header">
+                    <h3>
+                        5 Recommendations To Increase Sales by 5-10% in Next 5 Months
+                    </h3>
+                </div>
+
+                <div class="rec-card">
+
+                    <div class="rec-card-content">
+                        <div class="rec-card-fill">
+                            <h3>Increase 15% Price in Categories:</h3>
+                            <p>Food<br>Carbonated<br>Non-Carbonated</p>
+                        </div>
+                        <div class="rec-card-revenue">
+                            <div class="revenue-details">
+                                <h3>Revenue</h3>
+                                <p><span class="badge">⬆ 22% (5 months)</span></p>
+                                <p>After <span class="after">$13,681.5</span></p>
+                                <p>Before <span class="before">$11,230.5</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec-card-content">
+                        <div class="rec-card-fill">
+                            <h3>Increase 15% Price in Locations:</h3>
+                            <p>GuttenPlans<br>EB Public Library</p>
+                        </div>
+                        <div class="rec-card-revenue">
+                            <div class="revenue-details" style="margin-left: 17px;">
+                                <h3>Revenue</h3>
+                                <p><span class="badge">⬆ 15% (5 months)</span></p>
+                                <p>After <span class="after">$12,860.75</span></p>
+                                <p>Before <span class="before">$11,230.5</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec-card-content">
+                        <div class="rec-card-fill">
+                            <h3>Increase 15% Price in Categories <br> and
+                                Locations:</h3>
+                            <table>
+                                <tr>
+                                    <td>Food</td>
+                                    <td rowspan="3"><i class='bx bx-arrow-from-left'></i>
+                                    </td>
+                                    <td> GuttenPlans</td>
+                                </tr>
+                                <tr>
+                                    <td> Carbonated</td>
+                                    <td> EB Public Library</td>
+                                </tr>
+                                <tr>
+                                    <td>Non-Carbonated</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="rec-card-revenue">
+                            <div class="revenue-details" style="margin-left:10px;">
+                                <h3>Revenue</h3>
+                                <p><span class="badge">⬆ 13% (5 months)</span></p>
+                                <p>After <span class="after">$12,710.13</span></p>
+                                <p>Before <span class="before">$11,230.5</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec-card-content">
+                        <div class="rec-card-fill2">
+                            <h3>Activate all vending machines in all locations</h3>
+                            <p><br>From January to December 2022, there was 1 machine that
+                                was active from March, it was EB Public Library x1380. This
+                                causes income to not be maximized.</p>
+                        </div>
+                    </div>
+
+                    <div class="rec-card-content">
+                        <div class="rec-card-fill2">
+                            <h3>Reduce the number of vending machines in less strategic
+                                locations and increase the number of vending machines in
+                                strategic locations</h3>
+                            <p><br>At locations such as Earle Asphalt and Brunswick Sq Mall
+                                the total of vending machines can be reduced. Because these
+                                two locations are not locations with high sales and are less
+                                strategic.</p>
+                            <p><br>Meanwhile, the total of vending machines at GuttenPlans
+                                and EB Public Library locations can be increased because
+                                they are strategically located and have high sales.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <!-- ===== Footer ===== -->
+        <div class="footer">
+            <footer>&copy;Team 1 - Section Medan</footer>
+        </div>
+    </section>
+
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle">
+        <i class='bx bx-moon'></i>
+    </button>
+
+    <!-- Link JS -->
+    <script src="assets/js/team.js"></script>
+</body>
+
+</html>
